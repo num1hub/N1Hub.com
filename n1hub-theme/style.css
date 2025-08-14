@@ -1,0 +1,21 @@
+/*
+Theme Name: N1Hub Theme
+Theme URI: https://n1hub.com
+Author: Egor N1
+Author URI: https://n1hub.com
+Description: Lean FSE (block) theme for N1Hub.com — clarity-first, performance-focused, AI-ready (CapsuleOS/N1). Deliverable: uploadable ZIP.
+Requires at least: 6.6
+Tested up to: 6.6
+Requires PHP: 8.3
+Version: 0.1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: n1hub
+Tags: full-site-editing, blog, custom-colors, custom-menu, one-column
+*/
+:root { --n1-bg:#000000; --n1-text:#f3f5f7; --n1-accent:#22d3ee; }
+body { background: var(--n1-bg); color: var(--n1-text); }
+a { color: var(--n1-accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+
